@@ -172,10 +172,10 @@
     }
     document.getElementById("question").innerHTML = questions[currentQuestion]
     document.getElementById("count").innerHTML = currentQuestion+1
-    // $('html, body').animate({
-    //   scrollTop: 0
-    // }, 1500, 'easeInOutExpo');
-    // return false;
+    $('hero-container, question').animate({
+      scrollTop: 0
+    }, 500, 'easeInOutExpo');
+    return true;
   });
 
   // jQuery counterUp
